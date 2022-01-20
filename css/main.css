@@ -531,3 +531,17 @@ textarea.form-control {
    margin-right:auto;
 
  }
+
+.cities-navigation {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  background-color: #666666;
+}
+
+.cities-navigation p {
+  padding: 20px 0;
+  flex-grow: 1;
+  text-align: center;
+  color: black;
+}
