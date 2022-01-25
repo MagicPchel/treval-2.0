@@ -1,9 +1,4 @@
-/**
- * Base Variables
- */
-/**
- * Base Settings/Overwrite Normalize
- */
+
 *, *:before, *:after {
   box-sizing: border-box; }
 
@@ -68,24 +63,7 @@ ul {
   background-color: #9f8f68;
   text-shadow: none; }
 
-/**
- * Underline Slide from left and back
- */
-/**
- * Button Slide
- * Need to still add hover state in parent element
- * box-shadow: inset 175px 0 0 0 $color-alpha;
- * color: $color-white;
- */
-/**
- * Flex Grid
- */
-/**
- * Box Shadow
- */
-/**
- * Letter Spacing
- */
+
 .tabs, .previews__container span, .preview__more, .card__more, .footer__archive {
   font-family: "Space Mono", monospace;
   letter-spacing: 0.05em;
@@ -124,7 +102,7 @@ section {
     padding: 2em 0; }
 
 /**
- * Class Container (BEM)
+ * Class Container 
  */
 [class*='__container'] {
   position: relative;
