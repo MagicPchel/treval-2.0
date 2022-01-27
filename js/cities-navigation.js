@@ -32,9 +32,16 @@ function renderFilteredCities(e) { //Функция вызывается при 
     }
 }
 
+// for (let element of citiesNavitator.children) { //добавляет события на кнопки соответствующие тегу citiesNavTag
+//     if(element.tagName = citiesNavTag) {
+//         element.addEventListener('click', renderFilteredCities);
+//     }
+// }
+
+// Поддерживает вложенность
 for (let element of citiesNavitator.children) { //добавляет события на кнопки соответствующие тегу citiesNavTag
-    if(element.tagName = citiesNavTag) {
+    const item = element.querySelector(citiesNavTag);
+    if(item || element.tagName.toUpperCase == citiesNavTag.toUpperCase) {
         element.addEventListener('click', renderFilteredCities);
     }
 }
-
