@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Beltreval | Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="/Beltreval.svg" alt="WebDev logo">
+      </a>  
+      <nav class="navbar-nav">
+        <ul>
+          <li>
+            <a  href="hotel.html">Отели</a>
+          </li>
+          <li>
+            <a  href="#">Рестораны</a>
+          </li>
+          <li>
+            <a href="architecture.html">Архитектура</a>
+          </li>
+          <li>
+
+
+            <a href="contact.html">Регистрация</a>
+
+
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: url('home/road-6881040_1920.jpg')">
+      <div class="container">
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cumque illum iste itaque nisi vitae? Fugiat.</p>
+        <a href="contact.html" class="btn btn-primary">Свяжись с нами</a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="services">
+
+          <div class="service-col">
+            <div class="service">
+              <img src="icons/castle.png" alt="castle">
+              <h4>Архитектура</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet dicta doloribus perferendis sit? Aspernatur cupiditate ea vero!</p>
+              <a href="architecture.html">Узнать больше</a>
+            </div>
+          </div>
+
+          <div class="service-col">
+            <div class="service">
+              <img src="icons/hotel.png" alt="hotel">
+              <h4>Отели</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet dicta doloribus perferendis sit? Aspernatur cupiditate ea vero!</p>
+              <a href="hotel.html">Узнать больше</a>
+            </div>
+          </div>
+
+          <div class="service-col">
+            <div class="service">
+              <img src="icons/cafe.png" alt="cafe">
+              <h4>Рестораны</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet dicta doloribus perferendis sit? Aspernatur cupiditate ea vero!</p>
+              <a href="index.html">Узнать больше</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Split Section -->
+    <section class="section-padding section-grey">
+      <div class="container">
+        <div class="split-section">
+          <div class="split-section__text">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque ducimus error excepturi, fugit ipsa iure laudantium magni modi nobis officia placeat possimus quod reprehenderit, similique, sit ullam voluptate voluptates.</p>
+            
+          </div>
+          <div class="split-section__image">
+            <img src="san-galgano-1610962_640.jpg" alt="Laptop" class="img-shadow img-rounded">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+<!-- about us -->
+<main>
+
+  <!-- Hero Section -->
+  <section class="hero hero-sm" style="background-image: url('about/hero.jpeg')">
+    <div class="container">
+      <h1 class="mb-0">О нас</h1>
+    </div>
+  </section>
+
+  <!-- Split Section -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="split-section">
+        <div class="split-section__text">
+          <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque ducimus error excepturi, fugit ipsa iure laudantium magni modi nobis officia placeat possimus quod reprehenderit, similique, sit ullam voluptate voluptates.</p>
+        </div>
+        <div class="split-section__image">
+          <img src="chicago-5347435_640.jpg" alt="Laptop" class="img-shadow img-rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Split Section -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="split-section">
+        <div class="split-section__image">
+          <img src="church-5573087_640.jpg" alt="Laptop" class="img-shadow img-rounded">
+        </div>
+        <div class="split-section__text">
+          <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque ducimus error excepturi, fugit ipsa iure laudantium magni modi nobis officia placeat possimus quod reprehenderit, similique, sit ullam voluptate voluptates.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- contact with us -->
+
+<section class="hero hero-sm" style="background-image: url('contact/hero.jpeg')">
+  <div class="container">
+    <h1 class="mb-0">Свяжись с нами</h1>
+  </div>
+</section>
+
+<!-- Form and text -->
+<section class="section-padding">
+  <div class="container">
+    <div class="contact-form">
+      <div class="contact-form__form">
+        <form action="php/send.php" class="form-layout" method="post">
+          <div class="form-col-50">
+            <label for="contact_name">ФИО</label>
+            <input type="text" class="form-control" name="contact-name" id="contact-name" required>
+          </div>
+          <div class="form-col-50">
+            <label for="contact_email">Почта</label>
+            <input type="email" class="form-control" name="contact-email" id="contact-email" required>
+          </div>
+          <div class="form-col">
+            <label for="contact-message">Сообщение</label>
+            <textarea class="form-control"
+                      name="contact_message"
+                      id="contact-message"
+                      rows="4"></textarea>
+          </div>
+          <div class="form-col">
+            <button class="btn btn-primary" type="submit">
+              Отправить
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="contact-form__info">
+        <p class="lead">Email: <a href="beltreval@mail.ru">beltreval@mail.ru</a></p>
+        <p class="lead">Телефон: <a href="tel:+375336910508">+ 375 33 691 0508</a></p>
+        <br>
+        <p class="lead">Позвоните нам или зайдите в любое время, мы постораемся ответить на ваш запрос в течении 24 часов в рабочие дни.</p>
+        <p class="lead">Мы открыты с  9:00  — 17:00 каждый день.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-row">
+        <small class="footer-copyright">© 2022 Beltreval — Все права защищены</small>
+        <ul class="footer-social">
+          <li>
+            <a href="https://ru-ru.facebook.com">
+              <img src="icons/facebook.svg" alt="WebDev on Facebook">
+            </a>
+            
+          </li>
+          <li>
+            <a href="https://www.instagram.com">
+              <img src="icons/instagram.svg" alt="WebDev on Instagram">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com">
+              <img src="icons/youtube.svg" alt="WebDev on Youtube">
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/?lang=ru">
+              <img src="icons/twitter.svg" alt="WebDev on Twitter">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/popup.js"></script>
+</body>
+</html>
