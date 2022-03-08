@@ -17,6 +17,7 @@ initializePassport(
   passport,
   email => users.find(user => user.email === email),
   id => users.find(user => user.id === id)
+
 )
 
 const users = []
@@ -24,6 +25,7 @@ app.use(express.static(path.resolve('js')))
 app.use(express.static(path.resolve('css')))
 app.use(express.static(path.resolve('images')))
 app.use(express.static(path.resolve('static')))
+
 app.use(express.static(path.resolve('fontawesome-free-6.0.0-web')))
 app.set('view-engine', 'ejs')
 app.use(express.urlencoded({ extended: false }))

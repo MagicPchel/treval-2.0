@@ -29,7 +29,7 @@
             <a href="architecture.html">Архитектура</a>
           </li>
           <li>
-            <a href="contact.html">Регистрация</a>
+            <a href="register">Регистрация</a>
           </li>
           
         </ul>
@@ -157,20 +157,20 @@
   <div class="container">
     <div class="contact-form">
       <div class="contact-form__form">
-        <form action="send.php" class="form-layout" method="post">
+        <form action="send.php" class="form-layout" method="POST">
           <div class="form-col-50">
             <label for="contact_name">ФИО</label>
-            <input type="text" class="form-control" name="contact-name" id="contact-name" required>
+            <input type="text" class="form-control" name="contact_name" id="contact_name" required>
           </div>
           <div class="form-col-50">
             <label for="contact_email">Почта</label>
-            <input type="email" class="form-control" name="contact-email" id="contact-email" required>
+            <input type="email" class="form-control" name="contact_email" id="contact_email" required>
           </div>
           <div class="form-col">
-            <label for="contact-message">Сообщение</label>
+            <label for="contact_message">Сообщение</label>
             <textarea class="form-control"
                       name="contact_message"
-                      id="contact-message"
+                      id="contact_message"
                       rows="4"></textarea>
           </div>
           <div class="form-col">
